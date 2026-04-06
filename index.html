@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чистий Дім: Клінінг Коломия | Прибирання та Хімчистка</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://i.postimg.cc/pdzrfkNQ/process.jpg');
+            background-size: cover; background-position: center;
+        }
+        .video-container { position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; border-radius: 1.5rem; background: #000; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+        
+        .map-container { border-radius: 2rem; overflow: hidden; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); height: 450px; border: 4px solid white; background: #e5e7eb; }
+        
+        .social-icon-nav { transition: all 0.3s ease; display: inline-block; }
+        .social-icon-nav:hover { transform: scale(1.2); }
+
+        .floating-phone {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: #16a34a;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            animation: phone-pulse 2s infinite;
+        }
+        @keyframes phone-pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.7); }
+            70% { transform: scale(1.1); box-shadow: 0 0 0 15px rgba(22, 163, 74, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); }
+        }
+
+        .review-img {
+            border: 1px solid #e2e8f0;
+            border-radius: 1rem;
+            transition: transform 0.3s ease;
+            width: 100%;
+        }
+        .review-img:hover { transform: scale(1.03); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans text-left">
+
+    <a href="tel:0964563546" class="floating-phone"><i class="fas fa-phone-alt"></i></a>
+
+    <nav class="fixed w-full z-50 bg-white shadow-md border-b">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center text-left">
+            <a href="#" class="flex items-center space-x-3">
+                <img src="https://i.postimg.cc/1RwxyT09/file-0000000020ac71f48dcc28d7a159bd8e.png" alt="Чистий Дім" class="h-12">
+                <div class="flex flex-col uppercase leading-none text-left">
+                    <span class="text-xl font-black tracking-tighter">Чистий Дім</span>
+                    <span class="text-[9px] text-green-700 font-bold mt-1 tracking-widest uppercase">Клінінгова компанія</span>
+                </div>
+            </a>
+            
+            <div class="hidden lg:flex items-center space-x-6 border-x px-6 border-slate-200 text-left">
+                <span class="text-xs font-bold uppercase text-slate-500">Ми в мережі:</span>
+                <div class="flex items-center space-x-5">
+                    <a href="https://www.facebook.com/share/1DBpqrhHC6/" target="_blank" class="text-[#1877F2] text-2xl social-icon-nav"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/chistiydimkolomyia?igsh=MXg2OGt5cTViaGp1" target="_blank" class="text-[#E4405F] text-2xl social-icon-nav"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@ChystyyDim" target="_blank" class="text-[#FF0000] text-2xl social-icon-nav"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="text-right">
+                <a href="tel:0964563546" class="block font-black text-slate-900 text-sm md:text-base">096 456 35 46</a>
+                <a href="tel:0992823398" class="block font-black text-slate-900 text-sm md:text-base">099 282 33 98</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bg min-h-[60vh] flex items-center justify-center text-center text-white pt-20">
+        <div class="px-4">
+            <div class="bg-green-600 px-4 py-1 rounded-full text-xs font-bold uppercase mb-6 inline-block">Коломия • Косів • Снятин • Городенка</div>
+            <h1 class="text-4xl md:text-6xl font-black uppercase mb-8 leading-tight">Клінінг у Коломиї<br><span class="text-green-500 italic">Чистий Дім</span></h1>
+            <a href="tel:0964563546" class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-xl font-black text-xl uppercase transition inline-block shadow-xl">Замовити прибирання</a>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white text-left">
+        <div class="container mx-auto px-6 max-w-5xl border-l-4 border-green-600 pl-6 md:pl-10">
+            <h2 class="text-2xl md:text-3xl font-black uppercase italic mb-6 text-slate-900">🧼 Клінінг у Коломиї — професійне прибирання від «Чистий Дім»</h2>
+            
+            <div class="space-y-4 text-slate-700 text-lg italic leading-relaxed mb-10 text-left">
+                <p>Клінінгова компанія «Чистий Дім» у Коломиї — це професійне прибирання квартир, будинків та офісів з гарантією якості. Ми надаємо повний спектр клінінгових послуг у Коломиї та районі: генеральне прибирання, підтримуюче прибирання, післяремонтне прибирання, а також хімчистку диванів, матраців і килимів.</p>
+                <p>Наш клінінг у Коломиї — це сучасне обладнання, професійна хімія та досвідчена команда. Ми видаляємо складні плями, неприємні запахи та алергени, забезпечуючи чистоту та безпеку для вашого дому.</p>
+                <p>Замовити клінінг у Коломиї дуже просто — достатньо залишити заявку або зателефонувати. Ми працюємо швидко, якісно та за доступними цінами.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-left">
+                <div>
+                    <h3 class="text-green-700 font-black uppercase italic mb-4">🔑 Наші послуги:</h3>
+                    <ul class="space-y-2 font-bold text-slate-800 italic">
+                        <li>• Клінінг квартир Коломия</li>
+                        <li>• Прибирання будинків Коломия</li>
+                        <li>• Генеральне прибирання</li>
+                        <li>• Післяремонтне прибирання</li>
+                        <li>• Хімчистка диванів Коломия</li>
+                        <li>• Хімчистка матраців</li>
+                        <li>• Хімчистка килимів</li>
+                        <li>• Озонування приміщень</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-green-700 font-black uppercase italic mb-4">⭐ Чому обирають «Чистий Дім»:</h3>
+                    <ul class="space-y-2 font-bold text-slate-800 italic">
+                        <li>• Професійний клінінг у Коломиї</li>
+                        <li>• Швидкий виїзд по місту та району</li>
+                        <li>• Безпечна хімія для дітей і тварин</li>
+                        <li>• Доступні ціни</li>
+                        <li>• Гарантія результату</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-left">
+                <h3 class="text-slate-900 font-black uppercase italic mb-2 text-xl">📍 Клінінг Коломия — замовити просто</h3>
+                <p class="text-slate-700 italic font-bold">Якщо вам потріген якісний клінінг у Коломиї — «Чистий Дім» стане вашим надійним партнером. Ми допоможемо зекономити ваш час та зробимо простір ідеально чистим.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-slate-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-black uppercase italic mb-10 text-slate-900">Наші Відеозвіти</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="video-container"><iframe src="https://www.youtube.com/embed/SEcskXg8MFc" allowfullscreen></iframe></div>
+                <div class="video-container"><iframe src="https://www.youtube.com/embed/Xe74yI1eMgw" allowfullscreen></iframe></div>
+                <div class="video-container"><iframe src="https://www.youtube.com/embed/YCu1qiBVWKc" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-16 bg-white text-left">
+        <div class="container mx-auto px-6">
+            <h2 class="text-center text-3xl font-black uppercase italic mb-10 text-slate-900">Ціни на прибирання та хімчистку у Коломиї</h2>
+            
+            <div class="max-w-5xl mx-auto shadow-2xl rounded-3xl overflow-hidden border-4 border-green-600 mb-16">
+                <img src="https://i.postimg.cc/BbBj6Ktd/Gemini-Generated-Image-2xxkvj2xxkvj2xxk.png" alt="Прайс Чистий Дім" class="w-full">
+            </div>
+
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 class="text-green-700 font-black uppercase italic mb-4 border-b pb-2">🏠 Прибирання приміщень</h3>
+                    <ul class="space-y-2 font-bold text-slate-700 italic text-sm">
+                        <li class="flex justify-between"><span>Комплексне</span> <span>від 170 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Генеральне</span> <span>від 90 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Після ремонту</span> <span>від 150 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Щоденне</span> <span>від 55 грн/м²</span></li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 class="text-green-700 font-black uppercase italic mb-4 border-b pb-2">🧽 Чистка поверхонь</h3>
+                    <ul class="space-y-2 font-bold text-slate-700 italic text-sm">
+                        <li class="flex justify-between"><span>Сухе прибирання</span> <span>від 50 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Вологе прибирання</span> <span>від 60 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Миття сходів</span> <span>від 70 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Пилососіння стін/стелі</span> <span>від 35 грн/м²</span></li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 class="text-green-700 font-black uppercase italic mb-4 border-b pb-2">🛋 Хімчистка меблів</h3>
+                    <ul class="space-y-2 font-bold text-slate-700 italic text-sm">
+                        <li class="flex justify-between"><span>Диван</span> <span>від 1350 грн</span></li>
+                        <li class="flex justify-between"><span>Крісло</span> <span>від 230 грн</span></li>
+                        <li class="flex justify-between"><span>Килими</span> <span>від 150 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Штори</span> <span>від 80 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Матрац</span> <span>від 500 грн</span></li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 class="text-green-700 font-black uppercase italic mb-4 border-b pb-2">🪟 Вікна та фасади</h3>
+                    <ul class="space-y-2 font-bold text-slate-700 italic text-sm">
+                        <li class="flex justify-between"><span>Вікна</span> <span>від 90 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Висотні роботи</span> <span>від 235 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Після будівництва</span> <span>від 100 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Фасади</span> <span>від 70 грн/м²</span></li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 class="text-green-700 font-black uppercase italic mb-4 border-b pb-2">🚿 Сантехніка</h3>
+                    <ul class="space-y-2 font-bold text-slate-700 italic text-sm">
+                        <li class="flex justify-between"><span>Унітаз</span> <span>від 150 грн</span></li>
+                        <li class="flex justify-between"><span>Раковина</span> <span>від 120 грн</span></li>
+                        <li class="flex justify-between"><span>Ванна</span> <span>від 350 грн</span></li>
+                        <li class="flex justify-between"><span>Душова кабіна</span> <span>від 550 грн</span></li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 class="text-green-700 font-black uppercase italic mb-4 border-b pb-2">🌿 Спеціальні послуги</h3>
+                    <ul class="space-y-2 font-bold text-slate-700 italic text-sm">
+                        <li class="flex justify-between"><span>Озонування</span> <span>від 700 грн</span></li>
+                        <li class="flex justify-between"><span>Після пожежі</span> <span>від 200 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Після потопу</span> <span>від 200 грн/м²</span></li>
+                        <li class="flex justify-between"><span>Хімчистка авто</span> <span>від 2200 грн</span></li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 lg:col-span-3">
+                    <h3 class="text-green-700 font-black uppercase italic mb-4 border-b pb-2">🔧 Додатково</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <ul class="space-y-1 font-bold text-slate-700 italic text-sm">
+                            <li class="flex justify-between border-b border-dashed"><span>Холодильник</span> <span>від 850 грн</span></li>
+                            <li class="flex justify-between border-b border-dashed"><span>Духовка</span> <span>від 550 грн</span></li>
+                        </ul>
+                        <ul class="space-y-1 font-bold text-slate-700 italic text-sm">
+                            <li class="flex justify-between border-b border-dashed"><span>Витяжка</span> <span>від 330 грн</span></li>
+                            <li class="flex justify-between border-b border-dashed"><span>Видалення грибка</span> <span>від 200 грн/м²</span></li>
+                        </ul>
+                        <ul class="space-y-1 font-bold text-slate-700 italic text-sm">
+                            <li class="flex justify-between border-b border-dashed"><span>Жалюзі</span> <span>від 80 грн/м²</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-slate-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-black uppercase italic mb-10 text-slate-900">Відгуки наших клієнтів</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <img src="https://i.postimg.cc/fytw4hZz/IMG_20260406_010612.jpg" alt="Відгук 1" class="review-img shadow-xl">
+                <img src="https://i.postimg.cc/fytw4hZT/IMG_20260406_010723.jpg" alt="Відгук 2" class="review-img shadow-xl">
+                <img src="https://i.postimg.cc/hvzSFqgS/IMG_20260406_010847.jpg" alt="Відгук 3" class="review-img shadow-xl">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-slate-900 text-white text-left">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h2 class="text-4xl font-black uppercase italic text-green-500">Контакти</h2>
+                    <div class="space-y-4">
+                        <a href="tel:0964563546" class="block text-3xl font-black hover:text-green-500 transition">096 456 35 46</a>
+                        <a href="tel:0992823398" class="block text-3xl font-black hover:text-green-500 transition">099 282 33 98</a>
+                        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.564483321487!2d25.04439097686884!3d48.522434124316885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730ee0f4c65366f%3A0xc3f60579296e8103!2z0LLRg9C7LiDQqNGD0YXQtdCy0LjRh9CwLCAz0JAsINCa0L7Qu9C-0LzQuNGPLCDCGNCy0LDQvdC-LU90苵0LDQvdC60ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3ODIwMA!5e0!3m2!1suk!2sua!4v1712356000000!5m2!1suk!2sua" target="_blank" class="block text-xl font-bold italic uppercase hover:text-green-500">
+                            <i class="fas fa-map-marker-alt text-green-500 mr-2"></i> м. Коломия, вул. Шухевича 3А
+                        </a>
+                    </div>
+                    <div class="pt-6 border-t border-white/10 flex space-x-6">
+                        <a href="https://www.facebook.com/share/1DBpqrhHC6/" target="_blank" class="text-4xl text-[#1877F2]"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/chistiydimkolomyia?igsh=MXg2OGt5cTViaGp1" target="_blank" class="text-4xl text-[#E4405F]"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@ChystyyDim" target="_blank" class="text-4xl text-[#FF0000]"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.467439064!2d25.0401!3d48.5298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730f0!2z0JrQvtC70L7QvNC40Y8sINCy0YPQuy4g0KjRg9GF0LXQstC40YfQsCAz0JA!5e0!3m2!1suk!2sua!4v13" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 bg-black text-center text-slate-600 text-[10px] uppercase tracking-widest">
+        © 2026 Чистий Дім • Коломия • Косів • Снятин • Городенка
+    </footer>
+
+</body>
+</html>
